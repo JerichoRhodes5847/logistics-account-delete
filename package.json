@@ -1,0 +1,12 @@
+{
+  "name": "logistics-account-delete",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/account_delete_route.ts",
+    "test": "tsx src/account_delete.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "tsx": "^4.19.2", "typescript": "^5.6.3", "@types/node": "^22.7.4" }
+}
